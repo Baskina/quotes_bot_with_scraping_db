@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "9- scraping"
+version = "0.1.0"
+description = ""
+authors = ["baskina <katyabaskina@gmail.com>"]
+readme = "README.md"
+packages = [{include = "9"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.1"
+pymongo = "^4.6.3"
+mongoengine = "^0.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
